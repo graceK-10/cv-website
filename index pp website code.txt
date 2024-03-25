@@ -1,0 +1,176 @@
+INDEX PETAL PALACE CODE
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Petal Palace</title>
+  <link rel="stylesheet" href="style.css">
+
+      <!-- Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ae4e6e6b4a.js" 
+  crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+  
+    <header>
+      <div class="row">
+      <div class="logo"><img src="./petal palace logo.png"></div>
+
+        <nav>
+        
+          <!--Menu Button-->    
+       
+         <input type="checkbox" id="check">
+                    <label for="check" class="menu_btn">
+                        <i class="bx bx-menu"></i>
+                </label>
+                <ul>     
+            <!--Navbar Page Links-->         
+                    <li class="dropdown_products">
+                      <a  href="index.html" class="active">Home</a>
+                      <div class="dropdown_content">
+                        <a href="weddings.html">Weddings</a>
+                        <a href="bouquet.html">Bouquets</a>
+                        <a href="gift_sets.html">Gift Sets</a>
+                      </div>
+                    </li>
+
+
+                    <li><a href="#about us">About Us</a></li>
+
+                <!--Products dropdown menu-->    
+                    <li class="dropdown_products">
+                        <a href="products.html">Products</a>
+                        <div class="dropdown_content">
+                            <a href="#featured_products">Featured Products</a>
+                            <a href="#special_offers">Special Offers</a>
+                            <a href="#services_provided">Our Services</a>
+                          </div>
+                    <li><a href="#contact">Contact Us</a></li>      
+                </ul>
+        </nav>
+        </div>
+      </header>
+
+<main>
+  <section class="Section_top" id="Home">
+    <div class="container_hero">
+    <div class="hero-text">
+      <h1>Blooms to Brighten Your World.</h1>
+      <p>Welcome to Petal Palace, where beauty blossoms in every petal. Our passion for flowers transcends mere arrangements; it's a dedication to infusing nature's most exquisite creations into every corner of your life. From vibrant bouquets that speak volumes to delicate floral accents that evoke emotion, we specialize in curating experiences that celebrate the artistry and elegance of nature. Step into our world of floral wonderment and let us ignite your senses with the enchanting fragrance and visual splendor of our blooms. Whether you seek a stunning centerpiece for a special occasion or a simple gesture of affection, we invite you to explore our collection and let the magic of flowers enchant you.</p>
+      <button>Order Now</button>
+
+    </div>
+  </div>
+  </section>
+</main>
+
+<div class="container">
+  <!--Products Page Content headers-->    
+  <div class="page_content">
+    <h1><a href="weddings.html">Weddings</a></h1>
+    <h1><a href="bouquet.html">Bouquets</a></h1>
+    <h1><a href="gift_sets.html">Gift Sets</a></h1>
+</div>
+
+<!--Product Page Content Images for Page Content-->
+<div class="image-row">
+  <img src="Wedding_1.jpeg" alt="">
+  <img src="Bouquet_1.jpeg" alt="">
+  <img src="Gift_1.jpeg" alt="">
+</div>
+
+<!-- About Us -->
+<section class="about us" id="about us">
+<h2>About Us</h2>
+<div class="main">
+<img src="./florist.jpg" alt="about image" height="60" width="80">
+<div class="about-text">
+  <p>
+    At Petal Palace, we don't just sell flowers; we craft moments of pure enchantment. Each bloom that graces our arrangements is handpicked with a meticulous eye for beauty and a heart full of passion. Our ethos is rooted in the belief that nature's artistry deserves to be showcased in its fullest splendor. From the delicate dance of petals to the vibrant symphony of colors, we strive to capture the essence of every blossom, infusing each creation with a touch of magic. Beyond mere floral arrangements, we offer a gateway to a world where emotions bloom and memories are fragrant. Let us be your guide through this botanical journey, where every stem tells a story, and every bouquet is a masterpiece waiting to unfold. Welcome to Petal Palace, where every visit promises to be a sensory delight.
+  </p>
+</div>
+  </div>
+  
+
+</section> 
+
+  <!-- Contact Us Section -->
+  
+  
+<section class="contact" id="contact">
+<div class="contact-form">
+<form>
+  <h2>Contact Us</h2>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your Email" required>
+  </div>
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+  </div>
+  <button type="submit">Send Message</button>
+</form>
+</div>   
+
+<div class="map">
+<h2>Our Location</h2>
+<div class="map-container">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.546767725021!2d28.037127072919233!3d-26.14631691101335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c8d37b50aaf%3A0x14ea91e5828c79e9!2sRosebank%20Mall!5e0!3m2!1sen!2sza!4v1710332222079!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+
+</section>
+
+<!-- Footer -->
+<footer>
+<div class="footer-container">
+<div class="socialIcons">
+  <a href=""><i class="fa-brands fa-facebook"></i></a>
+  <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+  <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+  <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+  <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+</div>
+<div class="footerNav">
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="#about us">About us</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
+</div>
+</div>
+
+<div class="footerBottom">
+  <p>Copyright &copy;2024; Designed by Grace Kipa & Zoe Dube</p>
+</div>
+
+</footer>
+
+      </div>
+
+
+</body>
+
+</html>

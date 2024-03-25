@@ -1,0 +1,173 @@
+cv website code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="left_side"></div>
+        <div class="right_side"></div>
+
+
+
+        <header>
+            <div>
+                <img src="886B7365-86A9-4CF8-AB80-FA379CC171B1.jpeg" alt="" style="width: 150px; height: auto; border-radius: 50%;">
+            </div>        
+    
+            
+            <h1>Grace Kipa</h1>   
+            <p>3rd Year BSc IT student 
+            <p>Fulltime student at <a href="https://app.melsoftacademy.com/register/">The Melsoft academy</a></p> 
+            <p>I am an aspiring FullStack Web Developer.</p>
+        </header>
+    </div>
+    
+        <hr>
+    
+        <section id="career">
+            <h2>Career Objectives</h2>
+            <p>My career objectives are to expand my arsenal of talents by continuing to 
+                gain valuable skills to provide current and relevant services to clients 
+                and customers. <br/>
+                My strengths include the ability to work efficiently under 
+                pressure, the ability to work in a cohesive manner in a group and <br/>
+                the ability to adjust to different or changing work environments. Seeking a  challenging position to 
+                leverage creativity, communication skills and a passion for design.</p>
+        </section>
+    
+        <hr>
+    
+        <section id="teaching">
+            <h2>Books and Teaching</h2>
+            <ul>
+                <li>BSC IT in Software Engineering | Current | Eduvos</li>
+                <li>FullStack Web Developer Bootcamp | Current | Melsoft Academy</li>
+            </ul>
+        </section>
+    
+        <hr>
+    
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <table>
+                <tr>
+                    <th scope="col">Dates</th>
+                    <th scope="col">Work</th>
+                </tr>
+                <tr>
+                    <td scope="row">2016 - 2018</td>
+                    <td>Administrator at CLK Event Planners</td>
+                </tr>
+                    <td scope="row">2018 - 2020</td>
+                    <td>Junior Web Developer at Escape Dynamics</td>
+                </tr>
+                <tr>
+                    <td scope="row">2021 - 2022</td>
+                    <td>Caterer at Cuisine D'Amour</td>
+                </tr>
+                <tr>
+                    <td scope="row">2020 - 2021</td>
+                    <td>Invigilator at IH Johannesburg English School</td>
+                </tr>
+                <tr>
+                    <td scope="row">2022 - 2024</td>
+                    <td>Promoter at L'oreal Cosmetics</td>
+                </tr>
+            </table>
+        </section>
+    
+        <hr>
+    
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Web Development &#9733;&#9733;&#9733;&#9733;&#9734;</p>
+            <p>Programming &#9733;&#9733;&#9733;&#9734;&#9734;</p>
+            <p>SQL &#9733;&#9733;&#9733;&#9734;&#9734;</p>
+            <p>Excel &#9733;&#9733;&#9734;&#9734;&#9734;</p>
+    
+        </section>
+    
+        <hr>
+    
+        <section>
+            <p><a href="#">My Hobbies</a></p>
+            <p><a href="#">Contact Me</a></p>
+        </section>
+    
+
+   
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+code
+
+/* Putting a colour on this section
+.wedding_centerpiece {
+    width: 2000px;
+    min-height: 100vh;
+    background-color: #f0d8d8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    gap: 1.5rem;
+    align-items: center;
+}
+*/
+
+
+need this
+
+need this under .navbar .pages
+
+/*Search navbar icon*/
+.pages_icon{
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 10000;
+    display: flex;
+    column-gap: 0.8rem;
+    margin-bottom: 15px;
+    padding-right: 25px;
+}
+
+/*Menu navbar icon*/
+#menu_icon{
+    font-size: 24px;
+    z-index: 100001;
+    cursor: pointer;
+    display: none;
+}
+
+.wedding_center_img {
+    display: flex;
+    width: 50px;
+    height: auto;
+}
+
+.wedding_center_text h2 {
+    font-size: 80px;
+    text-align: right;
+}
+
+.wedding_center_text p {
+    font-size: 25px;
+}

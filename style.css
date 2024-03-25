@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'STIX Two Text', serif;
+    list-style: none;
+}
+
+body{
+    background: rgb(192, 126, 137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 50px;
+}
+
+.container .left_section{
+    position: relative;
+    background: rgb(255, 211, 218);
+    padding: 30px;
+}
+
+.profile_text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profile_text .image{
+    position: relative;
+    width: 200px;
+    height: 230px;
+    border-radius: 60%;
+    overflow: hidden;
+}
+
+.profile_text .image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile_text h2{
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.profile_text h2 span{
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact_details{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.contact_details ul li{
+    list-style: none;
+}
+
+.title{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.title2{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact_details ul{
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contact_details ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+}
+
+.languages{
+    padding-top: 40px;
+}
+
+.languages ul li{
+    list-style: none;
+}
+
+
+.languages .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(64, 78, 73);
+    display: block;
+}
+
+.languages .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+}
+
+
+/*Container Right Section*/
+.container .right_section{
+    position: relative;
+    background: #fff;
+    padding: 20px;
+}
+
+ul li{
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.about h3{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.about .career_para{
+    padding: 15px;
+}
+
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .duration{
+    min-width: 150px;
+}
+
+.about .skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+} 
+
+.about .skills .box h4{
+    text-transform: uppercase;
+    color: rgb(64, 78, 73);
+    font-weight: 500;
+}
+
+.about .skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: rgb(64, 78, 73);
+}
+
+.about .skills .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(255, 211, 218);
+}
+
+.hobbies ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.hobbies ul li{
+    list-style: none;
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.hobbies ul li .fa{
+    color: rgb(64, 78, 73);
+    font-size: 18px;
+    width: 20px;
+    font-size: 25px;
+}
+
+@media (max-width: 1000px)
+{
+    
+    .container{
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .profile_text .image{
+        width: 150px;
+        height: 180px;
+        border-radius: 60%;
+    }
+
+    .profile_text h2{
+        font-size: 26px;
+        line-height: 25px;
+    }
+
+    .profile_text h2 span{
+        font-size: 18px;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .hobbies ul{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+@media (max-width: 600px)
+{
+    .about .box{
+        flex-direction: column;
+    }
+
+    .about .box .duration{
+        margin-bottom: 5px;
+    }
+
+    .hobbies ul{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .about .skills .box{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
