@@ -1,0 +1,21 @@
+{
+  "name": "cv-website",
+  "version": "1.0.0",
+  "description": "Melsoft Capstone Project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grace Kipa",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "github.com/graceK-10/cv-website"
+  },
+  "keywords": [
+    "CV"
+  ],
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
