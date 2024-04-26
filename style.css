@@ -136,13 +136,16 @@ ul {
     background: #fff;
     min-height: 100vh;
     display: block;
-    position: fixed;
-    left: 270px;
     padding: 0 30px;
-    top: 0;
-    right: 0;
-    z-index: 0;
     opacity: 1;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.main-content{
+    padding-left: 270px;
 }
 
 .padd-15{
@@ -178,7 +181,7 @@ ul {
 
 h3.greeting{
     font-size: 28px;
-    margin: 15px 70px;
+    margin: 10px 150px;
 
 }
 
@@ -188,6 +191,30 @@ h3.greeting span{
     font-weight: 700;
     color: #c07e89;
 }
+
+h3.my-profession{
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+.typing {
+    color: #c07e89;
+}
+
+.hero-info p{
+    margin-bottom: 70px;
+    font-size: 20px;
+}
+
+/*Hero Button */
+/* .btn .my-portfolio .animate-bounce{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: #fff;
+    border-radius: 40px;
+    background: #c07e89;
+} */
 
 /* HERO SECTION PROFILE IMAGE*/
 .hero-profile{
@@ -232,20 +259,78 @@ h3.greeting span{
 /* SOCIAL LINKS */
 .hero-socials{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     column-gap: 1rem;
 }
 
 .hero-socials-link{
-    font-size: 2rem;
+    font-size: 1.3rem;
     color: #000;
     transition:  color .4s;
+    padding-left: 15px;
 }
 
 .hero-socials-link:hover{
     color: #b85263;
 }
 
+/* ABOUT ME SECTION */
+.section-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
 
+.section-title h2{
+    font-size: 40px;
+    color: #000;
+    font-weight: 600;
+}
 
+.section-title h2::before{
+    content: '';
+    height: 4px;
+    width: 50px;
+    background-color: #b85263;
+    position: absolute; 
+    top: 100%;
+    left: 10px;
+}
 
+.section-title h2::after{
+    content: '';
+    height: 4px;
+    width: 25px;
+    background-color: #b85263;
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    margin-top: 8px;
+}
+
+.about .section-title h2 span{
+    font-family: "Allura", cursive;
+    font-size: 50px;
+    font-weight: 700;
+    color: #c07e89;
+}
+
+.about .about-content{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/* .about .about-content .about-text{
+    flex: 0 0 100%;
+    max-width: 100%;
+} */
+
+.about .about-content .about-text h4{
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+.about .about-content .about-text p{
+    font-size:  16px;
+    line-height: 25px;
+    color: var(--text-black-700);
+}
