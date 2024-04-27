@@ -46,6 +46,10 @@ ul {
     list-style: none;
 }
 
+.shadow-dark{
+    box-shadow: 0 0 20px rgb(185, 113, 124, 0.35);
+}
+
 /* NAVIGATION BAR */
 .aside{
     width: 270px;
@@ -342,10 +346,17 @@ h3.my-profession{
 }
 
 /* skill set row */
+.about .about-content .personal-info .basic-h4 span{
+    font-family: "Allura", cursive;
+    font-size: 35px;
+    font-weight: 700;
+    color: #c07e89;
+}
+
 .about .about-content .personal-info{
     flex: 0 0 40%;
     max-width: 40%;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .about .about-content .personal-info .info-item{
@@ -370,7 +381,7 @@ h3.my-profession{
 .about .about-content .skills{
     flex: 0 0 60%;
     max-width: 60%;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 .about .about-content .skills .skills-item{
@@ -401,4 +412,81 @@ h3.my-profession{
     height: 100%;
     border-radius: 4px;
     background-color: #b85263;
+}
+
+.about .about-content .experience,
+.about .about-content .education{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 30px;
+}
+
+.about .about-content h4.title{
+    font-size: 24px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    color: var(--text-black-900);
+}
+
+.about .about-content .timeline-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about .about-content .timelines{
+    background-color:#fcfcfc;
+    padding: 30px 20px;
+    border: 1px solid rgb(185, 113, 124);
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.about .about-content .timelines .timeline-details{
+    position: relative;
+    padding-left: 37px;
+    padding-bottom: 25px;
+}
+
+.about .about-content .timelines .timeline-details:last-child{
+    padding-bottom: 0;
+}
+
+.about .about-content .timelines .timeline-details:before{
+    content: '';
+    width: 2px;
+    position: absolute;
+    height: 100%;
+    left: 7px;
+    top: 0;
+    background-color: #b85263;
+}
+
+.about .about-content .timelines .timeline-details .circle-dot{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #b85263;
+}
+
+.about .about-content .timelines .timeline-date{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: var(--text-black-700);
+}
+
+.about .about-content .timelines .timeline-title{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.about .about-content .timelines .timeline-text{
+    line-height: 25px;
+    font-size: 16px;
+    color: var(--text-black-700);
 }
