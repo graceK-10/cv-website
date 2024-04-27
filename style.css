@@ -136,7 +136,7 @@ ul {
 
 /* HERO SECTION CONTENT */
 .section {
-    background: #fff;
+    background: #fcf3f3;
     min-height: 100vh;
     display: block;
     padding: 0 30px;
@@ -435,10 +435,10 @@ h3.my-profession{
 
 .about .about-content .timelines{
     background-color:#fcfcfc;
-    padding: 30px 20px;
+    padding: 50px 20px;
     border: 1px solid rgb(185, 113, 124);
     border-radius: 10px;
-    width: 100%;
+    width: 90%;
     position: relative;
 }
 
@@ -489,4 +489,18 @@ h3.my-profession{
     line-height: 25px;
     font-size: 16px;
     color: var(--text-black-700);
+}
+
+.about .about-content .timelines .timeline-title span{
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+/* PROJECTS SECTION */
+.portfolio .section-title h2 span{
+    font-family: "Allura", cursive;
+    font-size: 50px;
+    font-weight: 700;
+    color: #c07e89;
 }
