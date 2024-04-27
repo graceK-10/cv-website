@@ -59,7 +59,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 2px solid rgb(192, 126, 137);
 }
 
 .aside .nav-toggler{
@@ -314,15 +313,22 @@ h3.my-profession{
     color: #c07e89;
 }
 
+.about .about-text .career-h4 span{
+    font-family: "Allura", cursive;
+    font-size: 35px;
+    font-weight: 700;
+    color: #c07e89;
+}
+
 .about .about-content{
     flex: 0 0 100%;
     max-width: 100%;
 }
 
-/* .about .about-content .about-text{
+.about .about-content .about-text{
     flex: 0 0 100%;
     max-width: 100%;
-} */
+}
 
 .about .about-content .about-text h4{
     font-size: 24px;
@@ -333,4 +339,66 @@ h3.my-profession{
     font-size:  16px;
     line-height: 25px;
     color: var(--text-black-700);
+}
+
+/* skill set row */
+.about .about-content .personal-info{
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-top: 20px;
+}
+
+.about .about-content .personal-info .info-item{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.about .about-content .personal-info .info-item p {
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--text-black-900);
+    border-bottom: 1px solid rgb(192, 126, 137);
+}
+
+.about .about-content .personal-info .info-item p span{
+    font-weight: 400;
+    color: var(--text-black-700);
+    margin-left: 4px;
+}
+
+.about .about-content .skills{
+    flex: 0 0 60%;
+    max-width: 60%;
+    margin-top: 20px;
+}
+
+.about .about-content .skills .skills-item{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 13px;
+}
+
+.about .about-content .skills .skills-item h5{
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.about .about-content .skills .skills-item .progress{
+    background-color: #d5d5e2;
+    height: 7px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+}
+
+.about .about-content .skills .skills-item .progress .progress-bar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #b85263;
 }
