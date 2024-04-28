@@ -665,11 +665,30 @@ h3.my-profession{
     height: 3rem;
   }
 
- .contact-info-container .hero-socials a{
+ .contact-info-container .hero-socials-2 a{
     color: #000;
   }
 
-.contact-info-container .hero-socials p{
+.contact-info-container .hero-socials-2 p{
     font-size: larger;
     text-decoration: none;
+}
+
+/* SOCIAL LINKS */
+.hero-socials-2{
+    display: flex;
+    justify-content: start;
+    column-gap: 1rem;
+    
+}
+
+.hero-socials-link-2{
+    font-size: 1.3rem;
+    color: #000;
+    transition:  color .4s;
+    padding-left: 15px;
+}
+
+.hero-socials-link-2:hover{
+    color: #b85263;
 }
